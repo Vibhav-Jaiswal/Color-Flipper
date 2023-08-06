@@ -44,21 +44,23 @@ li a {
    margin-top: 200px;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
 
 #text {
     font-weight: bold;
     color: black;
     font-size: 3rem;
-    padding: 20px;
-    border-radius: 10px;
     line-height: 6rem;
 }
 
 #btn {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     border: none;
-    border-radius: 5px;
-    margin: 50px auto  150px 150px;
-    padding: 5px;
 }
